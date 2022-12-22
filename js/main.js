@@ -4,7 +4,7 @@ input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
     if(input.value !== ""){
-        open("file:///E:/Ammajon/medicine/"+input.value+".html")
+        open("https://axad575.github.io/Ximiya/"+input.value+".html")
       
     }
     document.getElementById("myBtn").click();
@@ -17,7 +17,7 @@ input2.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
     if(input2.value !== ""){
-        open("file:///E:/Ammajon/medicine/"+input2.value+".html")
+        open("https://axad575.github.io/Ximiya/"+input2.value+".html")
       
     }
     document.getElementById("myBtn").click();
@@ -47,7 +47,7 @@ function checkKey(e) {
 var inp = document.getElementById('bodyd');
 if(e.keyCode == "13") {  
     if(inp.value != ""){
-      open("file:///E:/Ammajon/medicine/"+inp.value+ ".html")
+      open("https://axad575.github.io/Ximiya/"+inp.value+".html"")
     }
 document.getElementById('form1').submit();
 }   
