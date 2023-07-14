@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90.9deg, #22D0F7 14.78%, rgba(15, 35, 211, 0.5) 78.4%);
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#navtextlogo{
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    margin: 2%;;
+
+}
+#navdiv{
+    display: block;
+    display: flex;
+    margin-right: 5%;
+}
+#navdivd1{
+    height: 35px;
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    margin-top: 8%;
+    padding-right: 15%;
+}
+#navdivinput{
+    height: 35px;
+    width: 198px;
+    background-color: white;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    font-size: x-large;
+    border: none;
+    outline: none;
+    margin-left: 2%;
+    
+}
+#navdivinput[type=text]{
+    padding-left: 2%;
+}
+#navdivd2{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: 8%;
+    margin-right: 3%;
+}
+#navdivsearch{
+    font-size: 30px;
+    justify-items: left;
+}
+@media (max-width:360px) {
+    #navtextlogo{
+        margin-left: 5%;
+    }
+    #navdiv{
+        display: none;
+    }
+}
+#bodytext{
+    width: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    color: #FFFFFF;
+}
+#bodydivinput{
+    height: 75px;
+    width: 38%;
+    background-color: white;
+    border-radius: 35px;
+    font-size: x-large;
+    border: none;
+    outline: none;
+    margin-top: 5%;
+    margin-left: 30%;
+    
+    
+}
+/* #bodydivinput::placeholder{
+    padding-left: 2%;
+} */
+#bodydivinput[type=text]{
+    padding-left: 2%;
+}
+#foottext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin-top: 5%;
+    text-align: center;
+}
+@media (max-width:360px) {
+    #bodytext{
+        margin-left: 5%;
+        text-align:left;
+        line-height: 40px;
+    }
+    #bodydivinput{
+        margin-left: 5%;
+        width: 87.5%;
+        margin-top: 20%;
+    }
+    #foottext{
+        font-size: 28px;
+        margin-top: 20%;
+    }
+}
+/* #bodydiv{
+    width: 90%;
+    height: 746px;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 35px; 
+} */
+#bodydive{
+    width: 90%;
+    height: 746px;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 35px;
+}
+#bodydiv2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media (max-width:650px) {
+    #bodydiv2{
+        display: grid;
+    }
+}
+#divelement{
+    width: 20%;
+    height: 230px;
+    background-color: #E72727;
+    border-radius: 37px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#divelementb{
+    /*E3E727*/
+    width: 20%;
+    height: 230px;
+    background-color: #E3E727;
+    border-radius: 37px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#divelementq{
+    /*03007D*/
+    width: 20%;
+    height: 230px;
+    background-color: #03007D;
+    border-radius: 37px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+@media (max-width:650px) {
+    #divelement{
+        width: 95%;
+    }
+}
+#elementtext{
+    font-size: 105px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-left: 9%;
+}
+#naztext{
+    font-size: 55px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+
+}
+#naztext2{
+    font-size: 55px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 4%;
+    
+}
+#naztext3{
+    font-size: 35px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    margin-left: -6%;
+}
+#naztext4{
+    font-size: 35px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2%;
+    margin-left: -6%;
+}
+#naztext5{
+    font-size: 35px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2%;
+    margin-left: -6%;
+}
+#nazelementa{
+    margin-right: 20%;
+    margin-top: 3%;
+}
+#nazelemnt2{
+    margin-top: 3%;
+    
+    
+}
+#bodytextVod{
+    font-size: 35px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+#bodyp{
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.5%;
+    margin-left: 2%;
+    color: rgb(161, 161, 161);
+}
+#para{
+    display: none;
+}
+#bodyd{
+    display: none;
+    width: 90%;
+    height: 35px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    box-shadow: -1px 12px 14px 0px rgba(34, 60, 80, 0.2);
+    margin-left: 3%;
+}
+#bodyd[type=text]{
+    padding-left: 3%;
+}
+@media (max-width: 360px) {
+    #bodyd{
+        display: block;
+
+    }
+    #bodydive{
+        height: 905px;
+        margin-top: 2%;
+    }
+    #nazelementa{
+        margin-left: 2%;
+    }
+    #nazelemnt2{
+        margin-left: 7%;
+    }
+}
